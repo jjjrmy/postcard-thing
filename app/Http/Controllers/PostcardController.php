@@ -45,7 +45,8 @@ class PostcardController extends Controller implements HasMiddleware
 
         $postcard = Postcard::create($validated);
 
-        return redirect()->route('postcards.edit', $postcard);
+        // return redirect()->route('postcards.edit', $postcard);
+        return redirect()->route('postcards.show', $postcard);
     }
 
     /**
