@@ -1,0 +1,5 @@
+export { default as InputText } from './InputText.vue'
+export { default as InputTextArea } from './InputTextArea.vue'
+export { default as InputToggle } from './InputToggle.vue'
+export { default as InputButton } from './InputButton.vue'
+export { default as InputFile } from './InputFile.vue' 
